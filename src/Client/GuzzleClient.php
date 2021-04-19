@@ -84,7 +84,7 @@ class GuzzleClient extends BaseClient implements ClientInterface
                 break;
             case RequestMethodEnum::PUT:
             case RequestMethodEnum::POST:
-                $options['form_params'] = $params;
+                $options['json'] = $params;
                 break;
             case RequestMethodEnum::UPLOAD:
                 if (array_key_exists('resource', $params) && array_key_exists('name', $params)) {

@@ -1,5 +1,5 @@
 {
-  "name": "zibios/wrike-php-guzzle",
+  "name": "suqld/wrike-php-guzzle",
   "description": "HTTP Client and exception transformer adapter for Wrike PHP Library, based on Guzzle package",
   "keywords": [
     "wrike",
@@ -20,9 +20,15 @@
       "name": "Zbigniew Ślązak"
     }
   ],
+  "repositories": [
+    {
+      "type": "vcs",
+      "url": "git@github.com:imageinabox/wrike-php-library.git"
+    }
+  ],
   "require": {
-    "php": ">=7.1,<7.3",
-    "zibios/wrike-php-library": "^3.0-dev",
+    "php": ">=7.3",
+    "suqld/wrike-php-library": "dev-main",
     "guzzlehttp/guzzle": ">=6.0,<7.0",
     "ext-json": "*"
   },
