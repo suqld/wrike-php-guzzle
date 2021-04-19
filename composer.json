@@ -28,7 +28,7 @@
   ],
   "require": {
     "php": ">=7.3",
-    "suqld/wrike-php-library": "dev-main",
+    "suqld/wrike-php-library": "dev-master",
     "guzzlehttp/guzzle": ">=6.0,<7.0",
     "ext-json": "*"
   },
